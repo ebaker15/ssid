@@ -1,0 +1,16 @@
+
+# ----------------------------------------
+# Wireless LAN configuration
+# ----------------------------------------
+pushd wlan
+
+# Allow filter list
+# ----------------------------------------
+
+
+# Block filter list
+# ----------------------------------------
+
+
+popd
+# End of Wireless LAN Configuration
