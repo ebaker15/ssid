@@ -9,16 +9,29 @@ from subprocess import Popen, PIPE
 import time
 
 words = [
-"fieljazair#99"
+
 ]
 
 def try_connect(ssid, verbose = False):
-    for word in words:
-        if(verbose):
-            print("Trying " + word)
-        if(_connectone(ssid,word,1,verbose)):
-            return word
-    return "no ssid found"
+
+    for guess in range(10000000,11111111):
+        guess = str(guess)
+        if((guess[0]=="0" or guess[0]=="1") and (guess[1]=="0" or guess[1]=="1") and (guess[2]=="0" or guess[2]=="1")and (guess[3]=="0" or guess[3]=="1")
+        and (guess[4]=="0" or guess[4]=="1") and (guess[5]=="0" or guess[5]=="1") and (guess[6]=="0" or guess[6]=="1") and (guess[7]=="0" or guess[7]=="1")):
+
+
+
+              print(guess)
+              if(_connectone(ssid,guess,1,verbose)):
+
+                  return(guess)
+                  return "no ssid found"
+
+
+
+
+
+
 import shlex
 from subprocess import Popen, PIPE
 

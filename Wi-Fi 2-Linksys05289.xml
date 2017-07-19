@@ -8,7 +8,7 @@
 		</SSID>
 	</SSIDConfig>
 	<connectionType>ESS</connectionType>
-	<connectionMode>auto</connectionMode>
+	<connectionMode>manual</connectionMode>
 	<MSM>
 		<security>
 			<authEncryption>
@@ -19,8 +19,12 @@
 			<sharedKey>
 				<keyType>passPhrase</keyType>
 				<protected>false</protected>
-				<keyMaterial>fieljazair#99</keyMaterial>
+				<keyMaterial>10010101</keyMaterial>
 			</sharedKey>
 		</security>
 	</MSM>
+	<MacRandomization xmlns="http://www.microsoft.com/networking/WLAN/profile/v3">
+		<enableRandomization>false</enableRandomization>
+		<randomizationSeed>2798450462</randomizationSeed>
+	</MacRandomization>
 </WLANProfile>
